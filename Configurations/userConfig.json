@@ -1,34 +1,15 @@
 {
-  "__VERSION__": "210",
+  "__VERSION__": "215",
   "Main": {
     "Controls": [
       {
         "Calibration": null,
-        "Enable": false,
-        "ForceApply": false,
-        "Identifier": "/gpu-amd/0/control/0",
-        "IsHidden": false,
-        "ManualControl": false,
-        "ManualControlValue": 50,
-        "MinimumPercent": 0,
-        "Name": "GPU Fan",
-        "NickName": "GPU Fan",
-        "PairedFanSensor": null,
-        "SelectedCommandStepDown": 8.0,
-        "SelectedCommandStepUp": 8.0,
-        "SelectedFanCurve": null,
-        "SelectedOffset": 0,
-        "SelectedStart": 0,
-        "SelectedStop": 0
-      },
-      {
-        "Calibration": null,
-        "Enable": false,
+        "Enable": true,
         "ForceApply": false,
         "Identifier": "/lpc/it8686e/control/0",
         "IsHidden": false,
-        "ManualControl": false,
-        "ManualControlValue": 50,
+        "ManualControl": true,
+        "ManualControlValue": 19,
         "MinimumPercent": 0,
         "Name": "CPU Fan",
         "NickName": "CPU Fan",
@@ -42,12 +23,31 @@
       },
       {
         "Calibration": null,
-        "Enable": false,
+        "Enable": true,
+        "ForceApply": false,
+        "Identifier": "ADLX/Radeon RX 580 Series/1536/control",
+        "IsHidden": false,
+        "ManualControl": true,
+        "ManualControlValue": 15,
+        "MinimumPercent": 0,
+        "Name": "Control 1 - Radeon RX 580 Series",
+        "NickName": "Control 1 - Radeon RX 580 Series",
+        "PairedFanSensor": null,
+        "SelectedCommandStepDown": 8.0,
+        "SelectedCommandStepUp": 8.0,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "SelectedStart": 0,
+        "SelectedStop": 0
+      },
+      {
+        "Calibration": null,
+        "Enable": true,
         "ForceApply": false,
         "Identifier": "/lpc/it8686e/control/1",
         "IsHidden": false,
-        "ManualControl": false,
-        "ManualControlValue": 50,
+        "ManualControl": true,
+        "ManualControlValue": 20,
         "MinimumPercent": 0,
         "Name": "System Fan",
         "NickName": "System Fan",
@@ -61,20 +61,20 @@
       }
     ],
     "CustomSensors": [],
-    "Fahrenheit": false,
+    "Fahrenheit": true,
     "FanCurves": [],
     "FanSensors": [
-      {
-        "Identifier": "/gpu-amd/0/fan/0",
-        "IsHidden": false,
-        "Name": "GPU Fan",
-        "NickName": "GPU Fan"
-      },
       {
         "Identifier": "/lpc/it8686e/fan/0",
         "IsHidden": false,
         "Name": "CPU Fan",
         "NickName": "CPU Fan"
+      },
+      {
+        "Identifier": "ADLX/Radeon RX 580 Series/1536/fan",
+        "IsHidden": false,
+        "Name": "Fan 1 - Radeon RX 580 Series",
+        "NickName": "Fan 1 - Radeon RX 580 Series"
       },
       {
         "Identifier": "/lpc/it8686e/fan/1",
@@ -118,6 +118,6 @@
       "Enabled": true,
       "ZeroRPMOverride": true
     },
-    "SensorCount": 13
+    "SensorCount": 17
   }
 }

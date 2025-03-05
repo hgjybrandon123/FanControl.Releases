@@ -34,3 +34,112 @@
    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at FanControl.Domain.UpdaterService.<GetUpdateVersionInfo>d__24.MoveNext()
+1/19/2025 8:42:32 PM: Try refresh failed. Retry count (2) exceeded.
+ADLXWrapper could not initialize or has no sensors.
+1/19/2025 8:42:33 PM: Update - System.NullReferenceException: Object reference not set to an instance of an object.
+   at FanControl.Domain.BackendProviders.ADLX.ADLXWrapperBackendProvider.Update()
+   at FanControl.Domain.ComputerAccessLayer.Update()
+1/19/2025 8:42:34 PM: Update - System.NullReferenceException: Object reference not set to an instance of an object.
+   at FanControl.Domain.BackendProviders.ADLX.ADLXWrapperBackendProvider.Update()
+   at FanControl.Domain.ComputerAccessLayer.Update()
+1/19/2025 8:42:35 PM: Update - System.NullReferenceException: Object reference not set to an instance of an object.
+   at FanControl.Domain.BackendProviders.ADLX.ADLXWrapperBackendProvider.Update()
+   at FanControl.Domain.ComputerAccessLayer.Update()
+1/19/2025 8:42:35 PM: ADLXWrapper failed and was stopped. Refresh (CTRL+R) to attempt to restart it.
+1/19/2025 8:47:33 PM: GetUpdateVersionInfo - System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'raw.githubusercontent.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at FanControl.Domain.UpdaterService.<GetUpdateVersionInfo>d__24.MoveNext()
+1/20/2025 2:14:51 AM: GetUpdateVersionInfo - System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'raw.githubusercontent.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at FanControl.Domain.UpdaterService.<GetUpdateVersionInfo>d__24.MoveNext()
+1/22/2025 9:43:05 PM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+1/25/2025 2:58:13 PM: GetUpdateVersionInfo - System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'raw.githubusercontent.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at FanControl.Domain.UpdaterService.<GetUpdateVersionInfo>d__24.MoveNext()
+1/25/2025 3:59:05 PM: GetUpdateVersionInfo - System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'raw.githubusercontent.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at FanControl.Domain.UpdaterService.<GetUpdateVersionInfo>d__24.MoveNext()
+1/27/2025 8:50:00 PM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+1/27/2025 9:03:56 PM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+1/28/2025 12:15:46 AM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+1/28/2025 6:42:01 PM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+1/28/2025 9:25:42 PM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+1/29/2025 12:56:14 AM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+1/29/2025 3:04:07 AM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+1/29/2025 6:09:32 PM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+1/29/2025 9:21:17 PM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+1/29/2025 11:46:09 PM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+1/30/2025 3:33:25 AM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+1/30/2025 4:14:14 AM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+1/30/2025 5:06:38 PM: Unhandled exception in FanControl v211.0.0.0
+1/30/2025 5:06:38 PM: LogUnhandledException - System.ComponentModel.Win32Exception (0x80004005): Not enough quota is available to process this command
+   at System.Windows.Interop.HwndTarget.UpdateWindowSettings(Boolean enableRenderTarget, Nullable`1 channelSet)
+   at System.Windows.Interop.HwndTarget.UpdateWindowPos(IntPtr lParam)
+   at System.Windows.Interop.HwndTarget.HandleMessage(WindowMessage msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Interop.HwndSource.HwndTargetFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+1/30/2025 5:06:38 PM: Unhandled exception in FanControl v211.0.0.0
+1/30/2025 5:06:38 PM: LogUnhandledException - System.ComponentModel.Win32Exception (0x80004005): Not enough quota is available to process this command
+   at System.Windows.Interop.HwndTarget.UpdateWindowSettings(Boolean enableRenderTarget, Nullable`1 channelSet)
+   at System.Windows.Interop.HwndTarget.UpdateWindowPos(IntPtr lParam)
+   at System.Windows.Interop.HwndTarget.HandleMessage(WindowMessage msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Interop.HwndSource.HwndTargetFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+1/30/2025 6:35:14 PM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+1/31/2025 8:19:10 AM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+1/31/2025 9:15:29 AM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+1/31/2025 3:35:26 PM: Sensor validation failed.
+1/31/2025 7:05:01 PM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+2/1/2025 5:59:15 PM: Sensor validation failed.
+2/2/2025 1:58:10 AM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+2/2/2025 1:37:35 PM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+2/3/2025 1:50:22 AM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
+2/19/2025 5:12:35 PM: GetUpdateVersionInfo - System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'raw.githubusercontent.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at FanControl.Domain.UpdaterService.<GetUpdateVersionInfo>d__24.MoveNext()
