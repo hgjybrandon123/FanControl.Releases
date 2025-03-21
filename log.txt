@@ -143,3 +143,12 @@ Sensor validation failed.
    at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
    at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
    at FanControl.Domain.UpdaterService.<GetUpdateVersionInfo>d__24.MoveNext()
+3/7/2025 3:29:24 PM: GetUpdateVersionInfo - System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'raw.githubusercontent.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at FanControl.Domain.UpdaterService.<GetUpdateVersionInfo>d__24.MoveNext()
+3/16/2025 5:05:21 PM: Try refresh failed. Retry count (6) exceeded.
+Sensor validation failed.
